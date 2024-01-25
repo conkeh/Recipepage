@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 40px;
+  background-color: hsl(30, 54%, 90%);
+  font-family: outfit;
+  font-size: 15px;
+}
+hr {
+  width: 620px;
+  margin-left: 20px;
+}
+h3 {
+  font-family: young serif;
+  font-size: 22px;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.container {
+  width: 700px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.eggs {
+  width: 620px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.header {
+  padding: 20px;
+}
+.header p {
+  padding-top: 20px;
+}
+.preparation {
+  width: 620px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.preparation h4 {
+  color: hsl(332, 51%, 32%);
+}
+.preparation li {
+  line-height: 1.5;
+  margin-left: 20px;
+  padding: 5px;
+  left: 50px;
+}
+.preparation span {
+  font-weight: bold;
+}
+
+.ingredients li {
+  line-height: 1.8;
+  margin-left: 40px;
+  padding-left: 1em;
+}
+.ingredients ul {
+  padding-bottom: 20px;
+}
+
+.instructions {
+  width: 620px;
+}
+
+.instructions li {
+  line-height: 1.8;
+  margin-left: 40px;
+  padding-left: 1em;
+}
+.instructions span {
+  font-weight: bold;
+}
+.instructions ol {
+  padding-bottom: 20px;
+}
+.instructions li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+.nutrition p {
+  margin-left: 20px;
+}
+table {
+  width: 620px;
+  margin-left: 20px;
+  border-collapse: collapse;
+  border-spacing: 30px;
+}
+tr {
+  border-bottom: 1px solid rgb(186, 178, 178);
+}
+td {
+  padding: 20px;
+  padding-left: 40px;
+}
+
+td:last-child {
+  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+}
+tr:last-child {
+  border-bottom: none;
+}
+.attribution {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 10px;
+}
