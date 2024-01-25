@@ -131,12 +131,31 @@ tr:last-child {
     margin: 0;
   }
   .container {
-    width: 500px;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   .eggs {
-    width: 500px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .preparation {
+    width: 250px;
+  }
+  .instructions {
+    width: 250px;
+    font-size: 12px;
+  }
+  hr {
+    width: 250px;
+  }
+  table {
+    width: 200px;
   }
 }
