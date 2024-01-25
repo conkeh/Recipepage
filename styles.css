@@ -155,7 +155,10 @@ tr:last-child {
   hr {
     width: 250px;
   }
+  .nutrition {
+    width: 250px;
+  }
   table {
-    width: 200px;
+    width: 250px;
   }
 }
